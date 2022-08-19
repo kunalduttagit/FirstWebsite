@@ -105,6 +105,10 @@ body {
 @media (max-width: 750px) {
   .superdiv {
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+  .atc .tooltip {
+    padding: 4px;
   }
 }
 
